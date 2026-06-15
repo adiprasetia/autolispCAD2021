@@ -1,3 +1,10 @@
+;; Kandang Laktasi AutoCAD Script
+;; Deskripsi: Script ini akan menggambar denah kandang laktasi dengan parameter yang bisa diinput melalui kotak dialog. 
+;; Script ini menggunakan AutoLISP dan DCL untuk membuat interface input.
+;; Dibuat oleh : Adi Prasetia @2026
+;; Catatan: Pastikan block "WF350-P", "stall-2row-5400-dyn", "Dinding Beton", "Gate Removable S Top", 
+;; "Headlock 6-1", "Headlock 6-2", '"bak-minum-kanan" dan "bak-minum-kiri" sudah ada di dalam drawing sebelum menjalankan script ini.
+
 (vl-load-com) ; Memastikan fungsi vl-* (Visual LISP) aktif
 
 ;; =========================================================================

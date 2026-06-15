@@ -43,45 +43,19 @@
   (write-line "autokolom_dlg : dialog {" file)
   (write-line "  label = \"Dimensi Denah Gudang\";" file)
   (write-line "  : boxed_column { label = \"Dimensi (Angka)\";" file)
-  (write-line "    : edit_box { key = \"val_P\"; label = \"Panjang Bangunan (Sumbu X):\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_L\"; label = \"Lebar Bangunan (Sumbu Y):\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_J\"; label = \"Jarak Antar Kolom:\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_Pdx\"; label = \"Lebar Pedestal\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_Pdy\"; label = \"Panjang Pedestal\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_F\"; label = \"Jumlah Freestall (1baris):\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_GF\"; label = \"Group Freestall (1baris):\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_D\"; label = \"Lebar Double Freestall\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_C\"; label = \"Lebar Cow Alley Way\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_FC\"; label = \"Lebar Feed Cow Alley Way\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_FT\"; label = \"Lebar Feed Truck Alley Way\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_COT\"; label = \"Cross Over Tengah\"; edit_width = 6; }" 
-              file
-  )
-  (write-line "    : edit_box { key = \"val_COE\"; label = \"Cross Over Tepi\"; edit_width = 6; }" 
-              file
-  )
+  (write-line "    : edit_box { key = \"val_P\"; label = \"Panjang Bangunan (Sumbu X):\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_L\"; label = \"Lebar Bangunan (Sumbu Y):\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_J\"; label = \"Jarak Antar Kolom:\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_Pdx\"; label = \"Lebar Pedestal\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_Pdy\"; label = \"Panjang Pedestal\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_F\"; label = \"Jumlah Freestall (1baris):\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_GF\"; label = \"Group Freestall (1baris):\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_D\"; label = \"Lebar Double Freestall\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_C\"; label = \"Lebar Cow Alley Way\"; edit_width = 6; }"  file  )
+  (write-line "    : edit_box { key = \"val_FC\"; label = \"Lebar Feed Cow Alley Way\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_FT\"; label = \"Lebar Feed Truck Alley Way\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_COT\"; label = \"Cross Over Tengah\"; edit_width = 6; }" file  )
+  (write-line "    : edit_box { key = \"val_COE\"; label = \"Cross Over Tepi\"; edit_width = 6; }" file  )
   (write-line "  }" file)
   (write-line "  errtile;" file)
   (write-line "  ok_cancel;" file)
